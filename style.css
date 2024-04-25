@@ -291,3 +291,17 @@ min-height: 250px;
 
 
 /* classroom section */
+
+/* features section  */
+.features-p{
+  @media (max-width:1200px) {
+    font-size: 15px!important;
+    line-height: 20px!important;
+  }
+}
+
+.features-h2{
+  @media (max-width:576px) {
+    font-size: 30px!important;
+  }
+}
