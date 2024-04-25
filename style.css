@@ -1,0 +1,233 @@
+.text-xs {
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+
+.text-sm {
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+.text-md {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.text-lg {
+  font-size: 18px !important;
+  line-height: 28px !important;
+  @media (max-width:576px) {
+    font-size: 15px!important;
+    line-height: normal!important;
+  }
+}
+
+.text-xl {
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+
+.text-2xl {
+  font-size: 24px !important;
+  line-height: 32px !important;
+}
+
+.text-3xl {
+  font-size: 30px !important;
+  line-height: 36px !important;
+
+  @media (max-width:576px) {
+    font-size: 22px!important;
+  }
+}
+
+.text-4xl {
+  font-size: 36px !important;
+  line-height: 40px !important;
+}
+
+.text-5xl {
+  font-size: 48px !important;
+
+  @media (max-width:576px) {
+    font-size: 35px!important;
+  }
+}
+
+.text-6xl {
+  font-size: 60px !important;
+}
+
+.text-7xl {
+  font-size: 72px !important;
+}
+
+.text-8xl {
+  font-size: 96px !important;
+}
+
+.text-9xl {
+  font-size: 128px !important;
+}
+
+/* font weigth */
+
+.font-thin {
+  font-weight: 100 !important;
+}
+.font-extralight {
+  font-weight: 200 !important;
+}
+.font-light {
+  font-weight: 300 !important;
+}
+.font-normal {
+  font-weight: 400 !important;
+}
+.font-medium {
+  font-weight: 500 !important;
+}
+.font-semibold {
+  font-weight: 600 !important;
+}
+.font-bold {
+  font-weight: 700 !important;
+}
+.font-extrabold {
+  font-weight: 800v;
+}
+.font-black {
+  font-weight: 900 !important;
+}
+
+/* font ends here  */
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.text-orange {
+  color: #f48c06 !important;
+}
+
+.text-blue {
+  color: #2f327d !important;
+}
+
+.text-grey {
+  color: #696984 !important;
+}
+
+.text-hover-black:hover {
+  color: black !important;
+  font-weight: 600 !important;
+}
+
+.text-yellow {
+  background: -webkit-linear-gradient(
+    90deg,
+    #21c8f6 0%,
+    #ffc73c 0.01%,
+    #f19a1a 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-green {
+  color: #113c49 !important;
+}
+
+.button-blue {
+  border: 1px solid transparent !important;
+  background: linear-gradient(180deg, #21c8f6 0%, #637affd0 100%) !important;
+  border-radius: 80px !important;
+  color: white !important;
+}
+
+.button-hover-blue:hover {
+  border: 1px solid transparent !important;
+  background: linear-gradient(180deg, #21c8f6 0%, #637affd0 100%) !important;
+  border-radius: 80px !important;
+  color: white !important;
+}
+
+.button-white {
+  border: 1px solid transparent !important;
+  background-color: white !important;
+  border-radius: 80px !important;
+  color: #6c6c6c !important;
+}
+
+.button-hover-white:hover {
+  border: 1px solid transparent !important;
+  background: linear-gradient(180deg, #fafafa 0%, #ffffffd0 100%) !important;
+  border-radius: 80px !important;
+  color: #6c6c6c !important;
+}
+
+.button-orange {
+  border: 1px solid transparent !important;
+  background: linear-gradient(180deg, #21c8f6 0%, #ffc73c 0.01%, #f19a1a 100%);
+  color: white !important;
+  border-radius: 80px;
+}
+
+.button-hover-orange:hover {
+  border: 1px solid transparent !important;
+  background: linear-gradient(180deg, #21c8f6 0%, #ffc73c 0.01%, #f19a1a 100%);
+  color: white !important;
+  border-radius: 80px;
+}
+
+.button-border-orange {
+  border: 0.5px solid #f48c06 !important;
+  background-color: transparent !important;
+  color: #f48c06 !important;
+  border-radius: 80px !important;
+}
+
+.button-hover-border-orange:hover {
+  border: 0.5px solid #f48c06 !important;
+  background-color: transparent !important;
+  color: #f48c06 !important;
+  border-radius: 80px !important;
+}
+
+.bg-white{
+  background-color: white!important;
+  box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.096)!important;
+}
+
+/* hero section  */
+
+.hero-wrapper {
+  background-color: #21c8f636;
+  border-radius: 95% / 30% !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  min-height: 100vh;
+
+  @media (max-width: 576px) {
+    border-radius: 95% / 15% !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+}
+
+/* companies section */
+
+/* all in one section */
+
+.all-in-p{
+  width: 75%;
+  @media (max-width:768px) {
+    width: 100%!important;
+    font-size: 18px!important;
+    line-height: normal!important;
+  }
+}
